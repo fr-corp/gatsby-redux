@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid red;
+    width: 5rem;
+    height: 5rem;
+    transition: transform 1200ms, opacity 12222ms;
+    transform: translateX(100px) rotate(54deg);
+    opacity: 100;
+}
+
+.box p {
+    margin: auto;
+}
